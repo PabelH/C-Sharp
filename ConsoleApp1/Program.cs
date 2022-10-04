@@ -1,4 +1,11 @@
-// See https://aka.ms/new-console-template for more information
+﻿//Exercise 1
+Console.WriteLine("Hello my friend, What's your name?");
+
+string name = Console.ReadLine();
+
+Console.WriteLine("Hello " + name);
+
+// Exercise 2.1
 Console.WriteLine("what's your name?");
 string name = Console.ReadLine();
 
