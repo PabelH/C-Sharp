@@ -28,27 +28,39 @@ Console.WriteLine("and the affirmation..." + userName + " is a developer is: " +
 
 // Exercise 2.2
 Console.WriteLine("Tell me... How is the car of your dreams?");
-    Console.WriteLine("");
-    
-    Console.WriteLine("what is the brand of the car?...");
-    string brand = Console.ReadLine();
-    
-    Console.WriteLine("what is the model?");
-    string model = Console.ReadLine();
-    
-    Console.WriteLine("how many doors?");
-    int doors = Convert.ToInt32(Console.ReadLine());
-    
-    Console.WriteLine("What engine does it have?");
-    double engine = Convert.ToDouble(Console.ReadLine());
-    
-    Console.WriteLine("is it all terrain?(T/F)");
-    bool allT = Convert.ToBoolean(Console.ReadLine());
-    
-    Console.WriteLine("");
-    
-    Console.WriteLine(brand);
-    Console.WriteLine(model);
-    Console.WriteLine(doors);
-    Console.WriteLine(engine);
-    Console.WriteLine(allT);
+Console.WriteLine("");
+
+Console.WriteLine("what is the brand of the car?...");
+string brand = Console.ReadLine();
+
+Console.WriteLine("what is the model?");
+string model = Console.ReadLine();
+
+Console.WriteLine("how many doors?");
+int doors = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("What engine does it have?");
+double engine = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("is it all terrain?(T/F)");
+bool allT = Convert.ToBoolean(Console.ReadLine());
+
+Console.WriteLine("");
+
+Console.WriteLine(brand);
+Console.WriteLine(model);
+Console.WriteLine(doors);
+Console.WriteLine(engine);
+Console.WriteLine(allT);
+
+
+// Exercise 2.3
+int a = 18;
+int b = 18;
+char ch1 = 'a';
+char ch2 = 'z';
+Console.WriteLine(a >= b);
+Console.WriteLine(ch1 == ch2);
+Console.WriteLine(a >= b && ch1 != ch2);
+Console.WriteLine(a >= b || ch1 == ch2);
+
