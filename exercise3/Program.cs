@@ -1,16 +1,14 @@
-﻿Data myData = new Data("Pabel Hernandez", 6143552795, "Vista Sierra Azul", "pabel_h@hotmail.com", true);
+﻿Data myData = new("Pabel Hernandez", 6143552795, "Vista Sierra Azul", "pabel_h@hotmail.com", true);
 
-Console.Writeline(myData.fullName);
-
-
-
-
-
-
+Console.WriteLine("Full Name: " + myData.fullName);
+Console.WriteLine("Cell Phone: " + myData.phone);
+Console.WriteLine("Address: " + myData.address);
+Console.WriteLine("Email: " + myData.email);
+Console.WriteLine("new customer?: " + myData.newClient);
 public struct Data
 {
 
-    public Data(string n, int ph, string ad, string em, bool nC)
+    public Data(string n, long ph, string ad, string em, bool nC)
     {
       fullName = n;
       phone = ph;
@@ -20,7 +18,7 @@ public struct Data
     }
 
     public string fullName { get; set; }
-    public int phone { get; set; }
+    public long phone { get; set; }
     public string address { get; set; }
     public string email { get; set; }
     public bool newClient { get; set; }
