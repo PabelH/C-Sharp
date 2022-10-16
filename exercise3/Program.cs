@@ -45,5 +45,39 @@ if (promo == "PROMO1234"){
     Console.WriteLine($"Sorry no valid promo the price is: {price}");
 }
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+E5 part two
+
+using System;
+using System.Collections.Generic;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int select = 0;
+        int ind = 1;
+        List<string> languages = new List<string>();
+        languages.Add("Java Script");
+        languages.Add("Python");
+        languages.Add("Java");
+        languages.Add("C#");
+        
+        Console.WriteLine("Welcome to the programming games");
+        Console.WriteLine("presently we have these languages");
+        foreach (string a in languages){
+        Console.WriteLine(ind + " " + a);
+        ind ++;
+        }
+        Console.WriteLine("select your favorite programming language");
+        //save user answer 
+        //create conditional switch
+        
+        
+    }
+}
+
+
+
 */
 
