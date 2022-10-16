@@ -26,3 +26,24 @@ public struct Data
     public override string ToString() => $"({phone}, {newClient})";
 
 }
+
+/* E5 part one
+string name = "";
+string email = "";
+string promo = "PROMO1234";
+int price = 100;
+Console.WriteLine("Hello Friend, what's your name?");
+name = Console.ReadLine();
+Console.WriteLine($"Welcome {name}!!!, now tell me your email");
+email = Console.ReadLine();
+Console.WriteLine("If you have a code for a promo write it here");
+promo = Console.ReadLine();
+
+if (promo == "PROMO1234"){
+    Console.WriteLine($"Nice!!! the price whit promo is, {price / 2}");
+}else{
+    Console.WriteLine($"Sorry no valid promo the price is: {price}");
+}
+
+*/
+
