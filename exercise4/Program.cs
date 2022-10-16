@@ -1,5 +1,5 @@
 ﻿//While Loop
-
+/*
 int i = 0;
 int numU = 0;
 Console.WriteLine("Give me a number MF!!!... (My Friend)");
@@ -34,6 +34,7 @@ do
 {
   Console.WriteLine("Try with other number...");
 }
+*/
 
 //foor loop
 int width = 0;
