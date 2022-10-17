@@ -57,11 +57,7 @@ public class HelloWorld
     {
         int select = 0;
         int ind = 1;
-        List<string> languages = new List<string>();
-        languages.Add("Java Script");
-        languages.Add("Python");
-        languages.Add("Java");
-        languages.Add("C#");
+        var languages = new List<string> {"Java Script", "Python", "Java", "C#"};
         
         Console.WriteLine("Welcome to the programming games...");
         Console.WriteLine("presently we have these languages:");
